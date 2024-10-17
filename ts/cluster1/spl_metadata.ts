@@ -1,8 +1,8 @@
-import wallet from "../wba-wallet.json"
+import wallet from "../wba-wallet"
 import { createUmi } from "@metaplex-foundation/umi-bundle-defaults"
-import { 
-    createMetadataAccountV3, 
-    CreateMetadataAccountV3InstructionAccounts, 
+import {
+    createMetadataAccountV3,
+    CreateMetadataAccountV3InstructionAccounts,
     CreateMetadataAccountV3InstructionArgs,
     DataV2Args
 } from "@metaplex-foundation/mpl-token-metadata";
